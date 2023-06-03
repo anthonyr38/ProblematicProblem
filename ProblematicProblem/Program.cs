@@ -16,6 +16,7 @@ namespace ProblematicProblem
 
             var contResponse = Console.ReadLine().ToLower();
 
+            
             if (contResponse == "yes")
             {
                 cont = true;
@@ -23,6 +24,7 @@ namespace ProblematicProblem
             else 
             {
                 cont = false;
+                return;
             }
             
             Console.WriteLine();
